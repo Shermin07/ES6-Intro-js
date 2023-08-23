@@ -19,3 +19,16 @@ console.log(output);
 const getPI = () => Math.PI;
 console.log(getPI());
 
+
+// large arrow function::
+
+const doMath = (x, y, z) => {
+    const add = x+y+z;
+    const multiply = x*y*z;
+    const result1 = add + multiply;
+    return result1;
+}
+
+const largeFunction = doMath(2, 3, 4);
+console.log(largeFunction);
+
